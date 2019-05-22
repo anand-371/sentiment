@@ -5,12 +5,12 @@ import numpy as np
 
 train_x,train_y,test_x,test_y = create_sample_sets_and_labels()
 print('entered senti_net')
-n_nodes_hl1 = 1500
-n_nodes_hl2 = 1500
-n_nodes_hl3 = 1500
-n_classes = 2
-batch_size = 100
-hm_epochs = 10
+n_nodes_hl1 = 1500# 
+n_nodes_hl2 = 1500#
+n_nodes_hl3 = 1500#try changing these parameters for reaching a better accuracy
+n_classes = 2#
+batch_size = 100#
+hm_epochs = 10#
 
 x = tf.placeholder('float')
 y = tf.placeholder('float')
