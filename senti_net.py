@@ -70,4 +70,4 @@ def train_neural_network(x):
 		accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
 		print('Accuracy:',accuracy.eval({x: test_x, y: test_y}))
 train_neural_network(x)
-y=input()
+
